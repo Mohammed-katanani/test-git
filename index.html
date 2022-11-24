@@ -7,6 +7,51 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, recusandae dignissimos laboriosam dolorum eligendi provident voluptatum assumenda quisquam minus aliquam nesciunt id et accusantium. Facilis sunt cumque quasi quos deserunt.</p>
+<H1>Basic HTML Form</H1>
+<form>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>name:</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        </fieldset>
+        <fieldset>
+            <legend>other qustions:</legend>
+        <p>choose a drink:</p>
+        <input type="radio" id="coffee" name="fav_language" value="coffee">
+        <label for="coffee">coffee</label><br>
+        <input type="radio" id="tea" name="fav_language" value="tea" checked>
+        <label for="tea">tea</label><br>
+        <input type="radio" id="hot chocolate" name="fav_language" value="hot chocolate">
+        <label for="hot chocolate">chocolate</label><br>
+        <p>what ice cream do you like ?</p>
+        <input type="checkbox" id="chocolate" name="chocolate" value="Bike">
+        <label for="chocolate"> chocolate</label><br>
+        <input type="checkbox" id="chocolatePudding" name="chocolatePudding" value="Car">
+        <label for="chocolatePudding">chocolatePudding</label><br>
+        <input type="checkbox" id="chocolatePeanutButter" name="chocolatePeanutButter" value="Boat">
+        <label for="chocolatePeanutButter"> chocolate Peanut Butter</label><br>
+        <input type="checkbox" id="chocolatePeanutButter" name="chocolatePeanutButter" value="Boat" checked>
+        <label for="chocolatePeanutButter"> chocolate Peanut Butter</label><br>
+        <input type="checkbox" id="vanilla" name="vanilla" value="Boat">
+        <label for="vanilla"> vanilla</label><br>
+        <br>
+        <p>select a shool:</p>
+        <select name="school">
+            <option value="harverd" selected>harverd</option>
+            <option value="harverd2">harverd2</option>
+            <option value="harverd3">harverd3</option>
+            <option value="harverd4">harverd4</option>
+            <option value="harverd5">harverd5</option>
+            <option value="harverd6">harverd6</option>
+        </select>
+        <p>pleade provide comments:</p>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+</form>
 </body>
 </html>
